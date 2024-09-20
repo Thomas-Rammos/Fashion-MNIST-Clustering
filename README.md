@@ -10,7 +10,7 @@ The project consists of two main parts: Dimensionality Reduction and Clustering.
   # 1. Dimensionality Reduction
   - PCA (Principal Component Analysis): The dataset's dimensionality is reduced while preserving 90% of the variance. The resulting dimension M is computed.
   - Autoencoder: A neural network architecture (d – d/4 - M – d/4 – d) is trained to reduce the data dimension to 𝑀, based on the result from the PCA method.
-  - The best classification model from Homework 1 is applied to the reduced-dimensional data to evaluate performance improvements.
+  - The best classification model from ML1 is applied to the reduced-dimensional data to evaluate performance improvements.
 
   # 2. Clustering
   - k-means Clustering: The data (in reduced dimensions from both PCA and Autoencoder) is clustered using k-means with values of 𝐾 ranging from 10 to 20. The silhouette score is computed to find the optimal number of clusters 𝐾∗.
